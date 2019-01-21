@@ -1,32 +1,11 @@
 package teamfrite.com.gosecuri.dao
 
-import android.content.ContentValues.TAG
 import com.google.firebase.firestore.FirebaseFirestore
-import android.util.Log
-import teamfrite.com.gosecuri.model.User
 
-
-class Dao ()
+open class Dao
 {
-    val db = FirebaseFirestore.getInstance()
-
-    fun test() :String
-    {
-        var res: String = ""
-        db.collection("users")
-            .get()
-            .addOnCompleteListener { task ->
-                if (task.isSuccessful) {
-                    for (document in task.result) {
-                        Log.d("Test-Firebase", document.id + " => " + document.data)
-                        res = document.toString()
-                    }
-                } else {
-                    Log.w(TAG, "Error getting documents.", task.exception)
-                }
-            }
-        return res
-    }
+    protected val db: FirebaseFirestore = FirebaseFirestore.getInstance()
+    protected var collectionName: String = "";
 
     /*fun add()
     {
