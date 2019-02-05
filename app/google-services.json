@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "957200955381",
+    "firebase_url": "https://go-securi-a1d1d.firebaseio.com",
+    "project_id": "go-securi-a1d1d",
+    "storage_bucket": "go-securi-a1d1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957200955381:android:6d34162aaaa70767",
+        "android_client_info": {
+          "package_name": "teamfrite.com.gosecuri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957200955381-aagc03q3mas8cu5493qck77f8ooddotr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teamfrite.com.gosecuri",
+            "certificate_hash": "30f2f62822c9fb629fd15afa194cd77b5beffecd"
+          }
+        },
+        {
+          "client_id": "957200955381-19njir7oksbdda3djt15nnsgm7966oiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjm8V3RgMj2i_z97qlaHwlDGSiAYQANq0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957200955381-19njir7oksbdda3djt15nnsgm7966oiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
