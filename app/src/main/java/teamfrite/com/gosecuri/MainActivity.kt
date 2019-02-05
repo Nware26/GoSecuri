@@ -1,27 +1,15 @@
 package teamfrite.com.gosecuri
 
-import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.hardware.camera2.CameraAccessException
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
-import android.util.SparseIntArray
-import android.view.Surface
+import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import android.widget.Toast
-import com.google.android.gms.internal.phenotype.zzh.init
-import com.google.firebase.ml.vision.common.FirebaseVisionImage
-import com.google.firebase.ml.vision.face.FirebaseVisionFaceDetectorOptions
 import teamfrite.com.gosecuri.dao.DaoAgent
 import teamfrite.com.gosecuri.dao.DaoMateriel
-import android.graphics.BitmapFactory
-import android.graphics.Bitmap
-import android.util.Log
-import android.view.SurfaceView
-import com.google.android.gms.tasks.OnFailureListener
-import com.google.firebase.ml.vision.FirebaseVision
 
 
 class MainActivity : AppCompatActivity() {
